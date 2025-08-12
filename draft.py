@@ -12,6 +12,7 @@ menu()
 
 while True:
     try:
+        menu()
         opt = int(input("Enter your choice: "))
         while opt != 5:
             if opt == 1:
